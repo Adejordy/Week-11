@@ -15,6 +15,6 @@
 
 /* style the row height, background, anything  */
 
-.gameContainer {
+#gameContainer {
   background-color: cornsilk;
 }
