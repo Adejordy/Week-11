@@ -1,3 +1,7 @@
 /* style the background with mainContainer */
 
 /* style the row height, background, anything  */
+
+.gameContainer {
+  background-color: cornsilk;
+}

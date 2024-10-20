@@ -3,20 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="node_modules/boostrap/dist/css/boostrap.css" />
+    <title>Tic-Tac-Toe</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
   </head>
   <body class="mainContainer">
-    <!-- background -->
-    <!-- create a div id=header class = container 
- create a div within container div -->
-    <!-- Give the page a header with style -->
-    <!-- Add a row or header for the player playing (this depends on how you set up the page.) -->
-    <!-- Player 1 - X; Player 2 - O
- -in jc call the player by id to change players -->
-
+    <!-- creating mainContainer class to call in css to style -->
+    <div id="header" class="container">
+      <!-- The container div to hold all the game information -->
+      <div class="playerTurn">Its your turn...</div>
+      <!-- To be called on in JS to display the palyer -->
+    </div>
     <!-- Grid -->
+    <div class="container-lg">
+      <div class="gameContainer">
+        <div class="row">
+          <div id="box0" class="box col p-3 border border-warning"></div>
+          <div id="box1" class="box col p-3 border border-warning"></div>
+          <div id="box2" class="box col p-3 border border-warning"></div>
+        </div>
+        <div class="row">
+          <div id="box3" class="box col p-3 border border-warning"></div>
+          <div id="box4" class="box col p-3 border border-warning"></div>
+          <div id="box5" class="box col p-3 border border-warning"></div>
+        </div>
+        <div class="row">
+          <div id="box6" class="box col p-3 border border-warning"></div>
+          <div id="box7" class="box col p-3 border border-warning"></div>
+          <div id="box8" class="box col p-3 border border-warning"></div>
+        </div>
+      </div>
+    </div>
     <!-- new div class=container give it an outline text info text center; bootstrap
  div class = row give sizing
  in the div 
@@ -25,8 +45,8 @@
  copy everything a paste twice
   -->
 
-    <script src="node_modules/boostrap/dist/js/boostrap.bundle.js"></script>
-    <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="script.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
   </body>
 </html>
