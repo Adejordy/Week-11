@@ -1,4 +1,17 @@
 /* style the background with mainContainer */
+#header {
+  text-align: center;
+  font-size: 120px;
+  font-style: inherit;
+}
+.playerTurn {
+  font-size: 30px;
+  font-style: inherit;
+}
+
+.mainContainer {
+  background-color: peachpuff;
+}
 
 /* style the row height, background, anything  */
 
